@@ -1,0 +1,24 @@
+{
+    "name": "lyue/laravel-jwt",
+    "description": "laravel jwt",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lyue\\LaravelJwt\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linyue",
+            "email": "769353695@qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lyue\\LaravelJwt\\JwtProvider"
+            ]
+        }
+    }
+}
